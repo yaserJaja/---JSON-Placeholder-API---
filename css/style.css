@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(45deg, rgb(1, 1, 160), rgb(153, 1, 1));
+  font-family: system-ui;
+}
+h3,
+h4 {
+  margin: 0;
+}
+#content {
+  display: flex;
+}
+#users-container {
+  width: 30%;
+}
+#users {
+  width: 90%;
+  margin: 0 auto;
+}
+#user {
+  background-color: #fff;
+  border-radius: 100px;
+  padding: 10px 10px 10px 20px;
+  font-size: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-top: 15px;
+}
+.selected {
+  border: solid #ff6200 6px;
+}
+#posts-container {
+  width: 70%;
+  background-color: rgb(236, 236, 236);
+}
+#posts {
+  width: 90%;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+#post {
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+  padding: 10px;
+}
+#post h4 {
+  margin-left: 10px;
+}
